@@ -1,0 +1,13 @@
+.md-typeset h1 {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.md-typeset h2 {
+    color: #e8eaf6;
+    font-weight: 600;
+}
+
+.md-typeset h3 {
+    color: #f1f3ff;
+}
