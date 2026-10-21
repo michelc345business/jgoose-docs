@@ -107,7 +107,7 @@ Para facilitar a compreensão sobre um caso de uso textual, você pode ter o aux
 </video>
 
 
-#### Visualizar casos de uso diagramáticos
+#### Visualizar casos de uso diagramáticos {#visualizar-casosdeuso-diagramaticos}
 
 Estando na tela onde são dispostos os casos de uso, clique em "Diagram". O diagrama poderá ser visualizado. Lembre-se que você também [pode salvar esse diagrama em um arquivo ".mxe"](#como-salvar-arquivos).
 
@@ -162,7 +162,7 @@ Dúvidas adicionais que surgirem durante a resolução dos exercícios poderão 
 
 **EXERCÍCIO 06**: Abra o arquivo .doc gerado pelo exercício 04 e revise o Caso de Uso textual "Efetuar Venda". Se preferir, [pode enviar o arquivo .doc gerado para uma LLM de sua escolha e solicitar a revisão](#revisar-casodeuso-llm) (TEMPO ESTIMADO: aproximadamente 3 minutos).
 
-**EXERCÍCIO 07**: Mapeie os casos de uso textuais para casos de uso diagramáticos. (TEMPO ESTIMADO: < 1 minuto)
+**EXERCÍCIO 07**: [Visualize](#visualizar-casosdeuso-diagramaticos) os casos de uso diagramáticos. (TEMPO ESTIMADO: < 1 minuto)
 
 **EXERCÍCIO 08**: Considere que o sistema tomado como exemplo agora tem um novo caso de uso no qual a impressão dos dados de uma venda pode ser realizada independentemente da finalização de uma venda — por exemplo, para consultar e reimprimir os dados de uma venda antiga. [Adicione um novo caso de uso diagramático](#adicionar-casodeuso-diagramatico) "Imprimir dados de uma venda" como um caso de uso independente. Considere que tanto o ator Funcionário quanto o ator Gerente poderiam utilizar a funcionalidade de imprimir dados de uma venda (TEMPO ESTIMADO: < 1 minuto).
 
