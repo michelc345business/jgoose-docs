@@ -123,7 +123,13 @@ Estando na tela onde os casos de uso diagramáticos estão dispostos, selecione 
   <source src="../assets/videos/adicionar-casodeuso-diagramatico.mp4" type="video/mp4">
 </video>
 
-#### Mapear casos de uso 
+#### Mapear casos de uso diagramáticos para diagrama iStar {#mapear-casodeuso-diagramatico-istar}
+
+Execute a opção "File -> Generate iStar". Considere o video abaixo como exemplo. Observa-se que é necessário incluir um "system boundary".
+
+<video width="100%" controls>
+  <source src="../assets/videos/mapear-casodeuso-diagramatico-istar.mp4" type="video/mp4">
+</video>
 
 ## Exercícios para Utilização da JGOOSE {#exercicios}
 
@@ -160,7 +166,7 @@ Dúvidas adicionais que surgirem durante a resolução dos exercícios poderão 
 
 **EXERCÍCIO 08**: Considere que o sistema tomado como exemplo agora tem um novo caso de uso no qual a impressão dos dados de uma venda pode ser realizada independentemente da finalização de uma venda — por exemplo, para consultar e reimprimir os dados de uma venda antiga. [Adicione um novo caso de uso diagramático](#adicionar-casodeuso-diagramatico) "Imprimir dados de uma venda" como um caso de uso independente. Considere que tanto o ator Funcionário quanto o ator Gerente poderiam utilizar a funcionalidade de imprimir dados de uma venda (TEMPO ESTIMADO: < 1 minuto).
 
-**EXERCÍCIO 09**: Após realizar a adição do caso de uso conforme solicitado no exercício 08, mapeie os casos de uso diagramáticos para o diagrama iStar (TEMPO ESTIMADO: < 1 minuto).
+**EXERCÍCIO 09**: Após realizar a adição do caso de uso conforme solicitado no exercício 08, [mapeie os casos de uso diagramáticos para o diagrama iStar](#mapear-casodeuso-diagramatico-istar) (TEMPO ESTIMADO: < 1 minuto).
 
 
 ## Questionário UEQ
