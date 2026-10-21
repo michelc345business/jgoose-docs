@@ -2,7 +2,7 @@
 
 | **Autor do Documento** | Michel Caesar |
 | --- | --- |
-| **Última Alteração** | 02/10/2026 (pré-teste) |
+| **Última Alteração** | 20/10/2026 (piloto versão 1) |
 
 
 ## Manual de Uso - JGOOSE
@@ -171,6 +171,15 @@ Dúvidas adicionais que surgirem durante a resolução dos exercícios poderão 
 
 ## Questionário UEQ
 
-Baseando-se no uso que você fez da JGOOSE, responda a esse questionário no Google Forms.
+Baseando-se no uso que você fez da JGOOSE, [responda a esse questionário no Google Forms](https://forms.gle/ww6ZWWwDq4SCMQV5A).
 
-Esta é uma versão traduzida do UEQ (*User Experience Questionnaire* -- Questionário da Experiência do Usuário). Consiste em 26 escalas com 6 itens cada. A explicação sobre cada escala pode ser lida abaixo. Dúvidas adicionais poderão ser sanadas com o **avaliador** responsável por conduzir este estudo, e que **estará presente na sala no momento da aplicação deste instrumento de avaliação**. (TEMPO ESTIMADO PARA RESPOSTA: aproximadamente 10 minutos).
+Esta é a versão do UEQ (*User Experience Questionnaire* -- Questionário da Experiência do Usuário) traduzida para a língua portuguesa (de Portugal). Consiste em 26 escalas com uma escala de avaliação do diferencial semântico de sete pontos. Esses itens abrangem seis escalas de experiência do usuário: 
+
+* atratividade (impressão geral do produto), 
+* eficiência (impressão do usuário no alcance de metas), 
+* perspicuidade (impressão quanto à facilidade de compreensão), 
+* confiabilidade (sentimentos do usuário quanto segurança e controle da interação com a interface), 
+* estímulo (impressão de que é divertido e interessante utilizar o sistema) e 
+* novidade (impressão de que o design do produto é inovador, criativo). 
+
+Dúvidas adicionais poderão ser sanadas com o **avaliador** responsável por conduzir este estudo, e que **estará presente na sala no momento da aplicação deste instrumento de avaliação**. (TEMPO ESTIMADO PARA RESPOSTA: aproximadamente 10 minutos).
