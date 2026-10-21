@@ -92,7 +92,7 @@ Tendo um diagrama iStar aberto, clique em "File -> Generate Use Cases". Selecion
 
 #### Exportar a descrição de um caso de uso textual
 
-Estando na tela dos casos de uso textuais, clique no respectivo caso de uso, depois em "Export", e em seguida salve o arquivo ".doc" com o nome de sua preferência.
+Estando na tela dos casos de uso textuais, clique no respectivo caso de uso, depois em "Export this Specification", e em seguida salve o arquivo ".doc" com o nome de sua preferência.
 
 <video width="100%" controls>
   <source src="../assets/videos/exportar-casodeuso-textual.mp4" type="video/mp4">
