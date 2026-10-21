@@ -4,13 +4,6 @@ theme:
   name: material
   palette:
 
-    - scheme: default
-      primary: indigo
-      accent: blue
-      toggle:
-        icon: material/weather-night
-        name: Modo escuro
-
     - scheme: slate
       primary: indigo
       accent: blue
@@ -18,13 +11,22 @@ theme:
         icon: material/weather-sunny
         name: Modo claro
 
+    - scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Modo escuro
+
 
   features:
     - navigation.tabs
     - navigation.sections
-    - search.highlight
-    - search.suggest
-    - content.code.copy
+    - toc.integrate
+    - navigation.top
+    #- search.highlight
+    #- search.suggest
+    #- content.code.copy
 
 extra_css:
   - stylesheets/style.css
@@ -34,5 +36,7 @@ markdown_extensions:
   - toc:
       permalink: true
 
+site_url: https://michelc345business.github.io/jgoose-docs/
+
 nav:
-  - Documento de Instruções: doc-instrucoes.md
+  - JGOOSE - Documento de Instruções: doc-instrucoes.md
