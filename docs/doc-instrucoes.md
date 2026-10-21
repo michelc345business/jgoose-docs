@@ -47,7 +47,7 @@ Para incluir um Ator (Actor), um Agente (Agent) e/ou uma função (Role), clique
 </video>
 
 
-#### Adicionar um Link de relação ou contribuição
+#### Adicionar um Link de relacionamento do tipo is-a e participantes-in entre atores (Actor, Agent, Role) ou uma relação de dependência entre um ator e um elemento intencional (Goal, Quality, Resource, Task)
 
 Clique com o mouse no respectivo ícone do link, arraste-o para o respectivo ator ou elemento de origem. Em seguida, clique no respectivo ator ou elemento de origem e arraste-o para o respectivo ator ou elemento de destino.  
 
@@ -107,7 +107,7 @@ Para facilitar a compreensão sobre um caso de uso textual, você pode ter o aux
 </video>
 
 
-#### Mapear casos de uso textuais para casos de uso diagramáticos
+#### Visualizar casos de uso diagramáticos
 
 Estando na tela onde são dispostos os casos de uso, clique em "Diagram". O diagrama poderá ser visualizado. Lembre-se que você também [pode salvar esse diagrama em um arquivo ".mxe"](#como-salvar-arquivos).
 
@@ -160,7 +160,7 @@ Dúvidas adicionais que surgirem durante a resolução dos exercícios poderão 
 
 **EXERCÍCIO 05**: Exporte a descrição de todos os Casos de Uso gerados. (TEMPO ESTIMADO: < 1 minuto)
 
-**EXERCÍCIO 06**: Abra o arquivo .doc gerado pelo exercício 04 e revise o Caso de Uso textual obtido. Se preferir, [pode enviar o arquivo .doc gerado para uma LLM de sua escolha e solicitar a revisão](#revisar-casodeuso-llm) (TEMPO ESTIMADO: aproximadamente 3 minutos).
+**EXERCÍCIO 06**: Abra o arquivo .doc gerado pelo exercício 04 e revise o Caso de Uso textual "Efetuar Venda". Se preferir, [pode enviar o arquivo .doc gerado para uma LLM de sua escolha e solicitar a revisão](#revisar-casodeuso-llm) (TEMPO ESTIMADO: aproximadamente 3 minutos).
 
 **EXERCÍCIO 07**: Mapeie os casos de uso textuais para casos de uso diagramáticos. (TEMPO ESTIMADO: < 1 minuto)
 
@@ -171,9 +171,9 @@ Dúvidas adicionais que surgirem durante a resolução dos exercícios poderão 
 
 ## Questionário UEQ
 
-Baseando-se no uso que você fez da JGOOSE, [responda a esse questionário no Google Forms](https://forms.gle/ww6ZWWwDq4SCMQV5A).
+Baseando-se no uso que você fez na JGOOSE, [responda a esse questionário no Google Forms](https://forms.gle/ww6ZWWwDq4SCMQV5A).
 
-Esta é a versão do UEQ (*User Experience Questionnaire* -- Questionário da Experiência do Usuário) traduzida para a língua portuguesa (de Portugal). Consiste em 26 escalas com uma escala de avaliação do diferencial semântico de sete pontos. Esses itens abrangem seis escalas de experiência do usuário: 
+Esta é a versão do UEQ (*User Experience Questionnaire* -- Questionário da Experiência do Usuário) traduzida para a língua portuguesa (de Portugal). Consiste em 26 itens com uma escala de avaliação do diferencial semântico de sete pontos. Esses itens abrangem seis escalas de experiência do usuário: 
 
 * atratividade (impressão geral do produto), 
 * eficiência (impressão do usuário no alcance de metas), 
@@ -182,4 +182,4 @@ Esta é a versão do UEQ (*User Experience Questionnaire* -- Questionário da Ex
 * estímulo (impressão de que é divertido e interessante utilizar o sistema) e 
 * novidade (impressão de que o design do produto é inovador, criativo). 
 
-Dúvidas adicionais poderão ser sanadas com o **avaliador** responsável por conduzir este estudo, e que **estará presente na sala no momento da aplicação deste instrumento de avaliação**. (TEMPO ESTIMADO PARA RESPOSTA: aproximadamente 10 minutos).
+Dúvidas adicionais poderão ser sanadas com o **avaliador** responsável por conduzir este estudo, e que **estará presente na sala no momento da aplicação deste instrumento de avaliação**. (TEMPO ESTIMADO PARA RESPOSTA: entre 3 a 5 minutos).
