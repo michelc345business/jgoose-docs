@@ -138,7 +138,7 @@ Nesta seção descreve-se a sequência de passos a serem seguidos. O objetivo é
 - Geração de diagrama iStar.
 - Mapeamento iStar -> casos de uso textuais.
 - Exportação de casos de uso textuais.
-- Mapeamento casos de uso textuais -> casos de uso diagramáticos.
+- Visualização de casos de uso diagramáticos.
 - Adição de um caso de uso diagramático.
 - Mapeamento casos de uso diagramáticos -> iStar.
 
