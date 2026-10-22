@@ -98,12 +98,12 @@ Estando na tela dos casos de uso textuais, clique no respectivo caso de uso, dep
   <source src="../assets/videos/exportar-casodeuso-textual.mp4" type="video/mp4">
 </video>
 
-#### Revisar um caso de uso textual com auxílio de uma LLM {#revisar-casodeuso-llm}
+#### Revisar um caso de uso textual {#revisar-casodeuso-manual}
 
-Para facilitar a compreensão sobre um caso de uso textual, você pode ter o auxílio de uma LLM da sua escolha. Copie e cole o conteúdo do arquivo .doc e solicite a revisão. Considere o vídeo abaixo como exemplo.
+Abra o arquivo .doc gerado e revise. Considere o vídeo abaixo como exemplo.
 
 <video width="100%" controls>
-  <source src="../assets/videos/revisar-casodeuso-llm.mp4" type="video/mp4">
+  <source src="../assets/videos/revisar-casodeuso-manual.mp4" type="video/mp4">
 </video>
 
 
@@ -160,7 +160,7 @@ Dúvidas adicionais que surgirem durante a resolução dos exercícios poderão 
 
 **EXERCÍCIO 05**: Exporte a descrição de todos os Casos de Uso gerados. (TEMPO ESTIMADO: < 1 minuto)
 
-**EXERCÍCIO 06**: Abra o arquivo .doc gerado pelo exercício 04 e revise o Caso de Uso textual "Efetuar Venda". Se preferir, [pode enviar o arquivo .doc gerado para uma LLM de sua escolha e solicitar a revisão](#revisar-casodeuso-llm) (TEMPO ESTIMADO: aproximadamente 3 minutos).
+**EXERCÍCIO 06**: Abra o arquivo .doc gerado pelo exercício 04 e [revise o Caso de Uso textual](#revisar-casodeuso-manual) "Efetuar Venda". (TEMPO ESTIMADO: aproximadamente 3 minutos).
 
 **EXERCÍCIO 07**: [Visualize](#visualizar-casosdeuso-diagramaticos) os casos de uso diagramáticos. (TEMPO ESTIMADO: < 1 minuto)
 
