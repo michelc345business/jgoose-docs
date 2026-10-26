@@ -2,20 +2,51 @@
 
 | **Autor do Documento** | Michel Caesar |
 | --- | --- |
-| **Última Alteração** | 20/10/2026 (piloto versão 1) |
+| **Última Alteração** | 26/10/2026 (alterações após a etapa piloto) |
 
+## Como instalar e executar a JGOOSE na sua máquina?
+
+### Como instalar o JDK?
+
+Para executar a JGOOSE, é necessário ter o JDK (Java SE Development Kit) versão 9 ou superior instalado na máquina.
+
+**LINK OFICIAL PARA INSTALAÇÃO**: [https://www.oracle.com/br/java/technologies/downloads/](https://www.oracle.com/br/java/technologies/downloads/)
+
+* Para **Windows**: Recomenda-se as extensões ".exe" e ".msi", devido à maior facilidade de executar imediatamente aplicações que utilizam Java. Para o Linux, recomenda-se a extensão ".deb".
+* Para **macOS**: Recomenda-se a extensão .dmg (Disk Image), pois oferece um assistente de instalação nativo e simplificado, semelhante ao Windows.
+* Para **Linux**:
+    * Se você utiliza distribuições baseadas em Debian/Ubuntu (como Linux Mint, Pop!_OS), recomenda-se a extensão .deb, que facilita a instalação pelo gerenciador de pacotes da interface gráfica.
+    * Se você utiliza distribuições baseadas em Red Hat/Fedora (como CentOS, Rocky Linux), utilize a extensão .rpm.
+    * Para outras distribuições ou instalações manuais, utiliza-se o arquivo compactado .tar.gz.
+
+
+### **Como fazer download da JGOOSE?**
+
+Instale a versão mais recente da JGOOSE.
+
+**LINK DISPONIBILIZADO PARA INSTALAÇÃO**: [https://github.com/michelc345business/jgoose-docs/releases/](https://github.com/michelc345business/jgoose-docs/releases/)
+
+![Baixando a JGOOSE](assets/images/baixar-jgoose-github.png)
+
+Extraia o arquivo zipado e siga os passos para executar a JGOOSE como mostra a subseção seguinte.
+
+### **Como executar a JGOOSE?**
+
+* Para **Windows**: Execute o arquivo “jgoose-VERSAO-jar-with-dependencies.jar” como mostra a imagem abaixo.
+
+![Screenshot 2026-09-24 172340.png](assets/images/Screenshot_2026-09-24_172340.png)
+
+* De forma alternativa, você pode executar a JGOOSE pelo terminal, através dos comandos "cd '/caminho/para/JGOOSE 2026 Final'" e "java -jar .\jgoose-0.4.1-jar-with-dependencies.jar". Considere a imagem abaixo como exemplo.
+
+![Executando a JGOOSE através do terminal](assets/images/executando-jgoose-terminal.png)
+
+* Para **Linux/macOS**: Execute a JGOOSE pelo terminal, através dos comandos "cd '/caminho/para/JGOOSE 2026 Final'" e "java -jar ./jgoose-0.4.1-jar-with-dependencies.jar". Considere a imagem abaixo como exemplo.
+
+![Executando a JGOOSE através do terminal em sistemas baseados em UNIX](assets/images/executando-jgoose-terminal-unix.png)
 
 ## Manual de Uso - JGOOSE
 
 Este manual contém, de forma sucinta, uma breve descrição de como utilizar cada funcionalidade da ferramenta JGOOSE, contemplando apenas o escopo de funcionalidades abordadas na seção de [Exercícios para Utilização da JGOOSE](#exercicios). Dúvidas adicionais poderão ser sanadas com o avaliador responsável por conduzir este estudo, e que estará presente na sala no momento da aplicação deste instrumento de avaliação.
-
-### **Como executar a JGOOSE? (pule este passo caso já esteja executando a JGOOSE na máquina)**
-
-Requisito básico: JRE (Java Runtime Environment) versão 9 ou superior instalado na máquina.
-
-Execute o arquivo “jgoose-VERSAO-jar-with-dependencies.jar” conforme consta na imagem abaixo.
-
-![Screenshot 2026-09-24 172340.png](assets/images/Screenshot_2026-09-24_172340.png)
 
 ### Como salvar arquivos
 
