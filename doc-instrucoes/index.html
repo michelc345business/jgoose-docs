@@ -324,6 +324,56 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#como-instalar-e-executar-a-jgoose-na-sua-maquina" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Como instalar e executar a JGOOSE na sua máquina?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Como instalar e executar a JGOOSE na sua máquina?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#como-instalar-o-jdk" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Como instalar o JDK?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#como-fazer-download-da-jgoose" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Como fazer download da JGOOSE?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#como-executar-a-jgoose" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Como executar a JGOOSE?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#manual-de-uso-jgoose" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -334,17 +384,6 @@
   
     <nav class="md-nav" aria-label="Manual de Uso - JGOOSE">
       <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#como-executar-a-jgoose-pule-este-passo-caso-ja-esteja-executando-a-jgoose-na-maquina" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Como executar a JGOOSE? (pule este passo caso já esteja executando a JGOOSE na máquina)
-      
-    </span>
-  </a>
-  
-</li>
         
           <li class="md-nav__item">
   <a href="#como-salvar-arquivos" class="md-nav__link">
@@ -575,16 +614,44 @@
 <tbody>
 <tr>
 <td><strong>Última Alteração</strong></td>
-<td>20/10/2026 (piloto versão 1)</td>
+<td>26/10/2026 (alterações após a etapa piloto)</td>
 </tr>
 </tbody>
 </table>
+<h2 id="como-instalar-e-executar-a-jgoose-na-sua-maquina">Como instalar e executar a JGOOSE na sua máquina?<a class="headerlink" href="#como-instalar-e-executar-a-jgoose-na-sua-maquina" title="Permanent link">&para;</a></h2>
+<h3 id="como-instalar-o-jdk">Como instalar o JDK?<a class="headerlink" href="#como-instalar-o-jdk" title="Permanent link">&para;</a></h3>
+<p>Para executar a JGOOSE, é necessário ter o JDK (Java SE Development Kit) versão 9 ou superior instalado na máquina.</p>
+<p><strong>LINK OFICIAL PARA INSTALAÇÃO</strong>: <a href="https://www.oracle.com/br/java/technologies/downloads/">https://www.oracle.com/br/java/technologies/downloads/</a></p>
+<ul>
+<li>Para <strong>Windows</strong>: Recomenda-se as extensões ".exe" e ".msi", devido à maior facilidade de executar imediatamente aplicações que utilizam Java. Para o Linux, recomenda-se a extensão ".deb".</li>
+<li>Para <strong>macOS</strong>: Recomenda-se a extensão .dmg (Disk Image), pois oferece um assistente de instalação nativo e simplificado, semelhante ao Windows.</li>
+<li>Para <strong>Linux</strong>:<ul>
+<li>Se você utiliza distribuições baseadas em Debian/Ubuntu (como Linux Mint, Pop!_OS), recomenda-se a extensão .deb, que facilita a instalação pelo gerenciador de pacotes da interface gráfica.</li>
+<li>Se você utiliza distribuições baseadas em Red Hat/Fedora (como CentOS, Rocky Linux), utilize a extensão .rpm.</li>
+<li>Para outras distribuições ou instalações manuais, utiliza-se o arquivo compactado .tar.gz.</li>
+</ul>
+</li>
+</ul>
+<h3 id="como-fazer-download-da-jgoose"><strong>Como fazer download da JGOOSE?</strong><a class="headerlink" href="#como-fazer-download-da-jgoose" title="Permanent link">&para;</a></h3>
+<p>Instale a versão mais recente da JGOOSE.</p>
+<p><strong>LINK DISPONIBILIZADO PARA INSTALAÇÃO</strong>: <a href="https://github.com/michelc345business/jgoose-docs/releases/">https://github.com/michelc345business/jgoose-docs/releases/</a></p>
+<p><img alt="Baixando a JGOOSE" src="../assets/images/baixar-jgoose-github.png" /></p>
+<p>Extraia o arquivo zipado e siga os passos para executar a JGOOSE como mostra a subseção seguinte.</p>
+<h3 id="como-executar-a-jgoose"><strong>Como executar a JGOOSE?</strong><a class="headerlink" href="#como-executar-a-jgoose" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Para <strong>Windows</strong>: Execute o arquivo “jgoose-VERSAO-jar-with-dependencies.jar” como mostra a imagem abaixo.</li>
+</ul>
+<p><img alt="Screenshot 2026-09-24 172340.png" src="../assets/images/Screenshot_2026-09-24_172340.png" /></p>
+<ul>
+<li>De forma alternativa, você pode executar a JGOOSE pelo terminal, através dos comandos "cd '/caminho/para/JGOOSE 2026 Final'" e "java -jar .\jgoose-0.4.1-jar-with-dependencies.jar". Considere a imagem abaixo como exemplo.</li>
+</ul>
+<p><img alt="Executando a JGOOSE através do terminal" src="../assets/images/executando-jgoose-terminal.png" /></p>
+<ul>
+<li>Para <strong>Linux/macOS</strong>: Execute a JGOOSE pelo terminal, através dos comandos "cd '/caminho/para/JGOOSE 2026 Final'" e "java -jar ./jgoose-0.4.1-jar-with-dependencies.jar". Considere a imagem abaixo como exemplo.</li>
+</ul>
+<p><img alt="Executando a JGOOSE através do terminal em sistemas baseados em UNIX" src="../assets/images/executando-jgoose-terminal-unix.png" /></p>
 <h2 id="manual-de-uso-jgoose">Manual de Uso - JGOOSE<a class="headerlink" href="#manual-de-uso-jgoose" title="Permanent link">&para;</a></h2>
 <p>Este manual contém, de forma sucinta, uma breve descrição de como utilizar cada funcionalidade da ferramenta JGOOSE, contemplando apenas o escopo de funcionalidades abordadas na seção de <a href="#exercicios">Exercícios para Utilização da JGOOSE</a>. Dúvidas adicionais poderão ser sanadas com o avaliador responsável por conduzir este estudo, e que estará presente na sala no momento da aplicação deste instrumento de avaliação.</p>
-<h3 id="como-executar-a-jgoose-pule-este-passo-caso-ja-esteja-executando-a-jgoose-na-maquina"><strong>Como executar a JGOOSE? (pule este passo caso já esteja executando a JGOOSE na máquina)</strong><a class="headerlink" href="#como-executar-a-jgoose-pule-este-passo-caso-ja-esteja-executando-a-jgoose-na-maquina" title="Permanent link">&para;</a></h3>
-<p>Requisito básico: JRE (Java Runtime Environment) versão 9 ou superior instalado na máquina.</p>
-<p>Execute o arquivo “jgoose-VERSAO-jar-with-dependencies.jar” conforme consta na imagem abaixo.</p>
-<p><img alt="Screenshot 2026-09-24 172340.png" src="../assets/images/Screenshot_2026-09-24_172340.png" /></p>
 <h3 id="como-salvar-arquivos">Como salvar arquivos<a class="headerlink" href="#como-salvar-arquivos" title="Permanent link">&para;</a></h3>
 <p>Você pode salvar arquivos, seja esse arquivo um diagrama iStar ou um Caso de Uso diagramático.</p>
 <p>Clique no ícone de disco (ou aperte simultaneamente Ctrl e S), escolha o nome do arquivo e o salve com a extensão indica (geralmente “.mxe”). Após isso, sempre que você apertar simultaneamente Ctrl e S ou clicar no ícone de disco, suas alterações serão salvas no respectivo arquivo. Veja os 2 vídeos abaixo como exemplo.</p>
