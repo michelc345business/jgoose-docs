@@ -30,23 +30,28 @@ Instale a versão mais recente da JGOOSE.
 
 Extraia o arquivo zipado e siga os passos para executar a JGOOSE como mostra a subseção seguinte.
 
+* **OBSERVAÇÃO IMPORTANTE**: Pode ser necessário colocar a pasta da JGOOSE dentro de um diretório que não tenha espaços e acentos para que a ferramenta funcione da forma correta. Tomando como exemplo o Windows:
+
+    * **Evite colocar** a pasta 'JGOOSE-2026-Final' em diretórios que tenham acentos e/ou caracteres especiais, como por exemplo: "C:\Users\seu-usuario\Área de Trabalho\JGOOSE-2026-Final".
+    * Prefira uma pasta que não tenha acentos ou outros caracteres especiais no caminho. Exemplo: "C:\JGOOSE-2026-Final". 
+
 ### **Como executar a JGOOSE?**
 
-* Para **Windows**: Execute o arquivo “jgoose-VERSAO-jar-with-dependencies.jar” como mostra a imagem abaixo.
+* Para **Windows**: Dentro da pasta '/target' localizada dentro da pasta da JGOOSE, execute o arquivo “jgoose-VERSAO-jar-with-dependencies.jar” como mostra a imagem abaixo.
 
 ![Screenshot 2026-09-24 172340.png](assets/images/Screenshot_2026-09-24_172340.png)
 
-* De forma alternativa, você pode executar a JGOOSE pelo terminal, através dos comandos "cd '/caminho/para/JGOOSE 2026 Final'" e "java -jar .\jgoose-0.4.1-jar-with-dependencies.jar". Considere a imagem abaixo como exemplo.
+* De forma alternativa, você pode executar a JGOOSE pelo Terminal ou PowerShell, através dos comandos "cd '\caminho\para\JGOOSE-2026-Final\target'" e "java -jar .\jgoose-0.4.1-jar-with-dependencies.jar". Considere a imagem abaixo como exemplo.
 
 ![Executando a JGOOSE através do terminal](assets/images/executando-jgoose-terminal.png)
 
-* Para **Linux/macOS**: Execute a JGOOSE pelo terminal, através dos comandos "cd '/caminho/para/JGOOSE 2026 Final'" e "java -jar ./jgoose-0.4.1-jar-with-dependencies.jar". Considere a imagem abaixo como exemplo.
+* Para **Linux/macOS**: Execute a JGOOSE pelo terminal, através dos comandos "cd '/caminho/para/JGOOSE-2026-Final/target'" e "java -jar ./jgoose-0.4.1-jar-with-dependencies.jar". Considere a imagem abaixo como exemplo.
 
 ![Executando a JGOOSE através do terminal em sistemas baseados em UNIX](assets/images/executando-jgoose-terminal-unix.png)
 
 ## Manual de Uso - JGOOSE
 
-Este manual contém, de forma sucinta, uma breve descrição de como utilizar cada funcionalidade da ferramenta JGOOSE, contemplando apenas o escopo de funcionalidades abordadas na seção de [Exercícios para Utilização da JGOOSE](#exercicios). Dúvidas adicionais poderão ser sanadas com o avaliador responsável por conduzir este estudo, e que estará presente na sala no momento da aplicação deste instrumento de avaliação.
+Este manual contém, de forma sucinta, uma breve descrição de como utilizar cada funcionalidade da ferramenta JGOOSE, contemplando apenas o escopo de funcionalidades abordadas na seção de [Exercícios para Utilização da JGOOSE](#exercicios). Dúvidas adicionais poderão ser sanadas com o avaliador responsável por conduzir este estudo, através do e-mail michel.oliveira2@unioeste.br e demais contatos disponibilizados.
 
 ### Como salvar arquivos
 
@@ -80,10 +85,26 @@ Para incluir um Ator (Actor), um Agente (Agent) e/ou uma função (Role), clique
 
 #### Adicionar um Link de relacionamento do tipo is-a e participantes-in entre atores (Actor, Agent, Role) ou uma relação de dependência entre um ator e um elemento intencional (Goal, Quality, Resource, Task)
 
-Clique com o mouse no respectivo ícone do link, arraste-o para o respectivo ator ou elemento de origem. Em seguida, clique no respectivo ator ou elemento de origem e arraste-o para o respectivo ator ou elemento de destino.  
+Clique com o mouse no respectivo ícone do link. Em seguida, clique (bem ao centro do texto) no respectivo ator ou elemento de origem e arraste-o para o respectivo ator ou elemento de destino.
 
 <video width="100%" controls>
   <source src="../assets/videos/links-jgoose.mp4" type="video/mp4">
+</video>
+
+**O mesmo procedimento vale para outros tipos de ligações**, como por exemplo quando se deseja estabelecer uma relação do tipo 'Qualification' entre uma Quality e uma Task. Todavia, **é necessário atentar-se à ordem**: é possível estabelecer uma relação do tipo 'Qualification' entre uma Quality e uma Task, mas não o contrário. Quando uma relação inválida é estabelecida, uma mensagem de erro é exibida. É necessário respeitar a ordem correta. Considere os dois vídeos abaixo como exemplo.
+
+<video width="100%" controls>
+  <source src="../assets/videos/exemplo-link-invalido.mp4" type="video/mp4">
+</video>
+
+<video width="100%" controls>
+  <source src="../assets/videos/exemplo-link-invalido-2.mp4" type="video/mp4">
+</video>
+
+Para ajustes na organização, **você pode ajustar a curvatura dos links de relação**. Considere o vídeo abaixo como anexo, onde é ajustada a curvatura de um link entre uma Task e uma Quality.
+
+<video width="100%" controls>
+  <source src="../assets/videos/ajustar-curva-link.mp4" type="video/mp4">
 </video>
 
 #### Quebrar a linha dentro de um Ator ou Elemento de Dependência
@@ -105,23 +126,31 @@ Segure o mouse principal e selecione uma área retangular em volta dos elementos
 
 #### Duplicar um elemento
 
-Clique sobre o elemento, aperte simultaneamente Ctrl e C, depois Ctrl e V para duplicar o elemento.
+Clique sobre o elemento, aperte simultaneamente Ctrl e C, depois Ctrl e V para duplicar o elemento. No exemplo mencionado foi duplicada uma Task, mas isso pode valer para quaisquer outros elementos, como Actor, Quality, Resource e Goal.
 
 <video width="100%" controls>
   <source src="../assets/videos/duplicar-elemento-jgoose.mp4" type="video/mp4">
 </video>
 
-#### Mapear um diagrama iStar para casos de uso textuais a partir de um ator específico
+#### Incluir um boundary no ator Sistema {#incluir-boundary-istar}
 
-Tendo um diagrama iStar aberto, clique em "File -> Generate Use Cases". Selecione a partir de qual ator deseja mapear. No caso desse exemplo, considerou-se o ator "Sistema". Clique em "Yes" para visualizar os casos de uso textuais mapeados.
+Clique com o botão direito sobre o ator, depois em "Add Boundary". Após isso você pode arrastar quaisquer elementos do tipo Task, Resource e Quality para dentro desse 'boundary', para indicar que aquilo faz parte do respectivo ator. Um indicador azul deve aparecer na hora que arrastar os elementos indicando para por dentro do boundary. Considere o video abaixo como exemplo.
 
 <video width="100%" controls>
-  <source src="../assets/videos/mapear-istar-casodeuso.mp4" type="video/mp4">
+  <source src="../assets/videos/incluir-boundary-sistema-istar.mp4" type="video/mp4">
+</video>
+
+#### Mapear um diagrama iStar para casos de uso textuais a partir de um ator específico {#mapear-istar-casosdeuso-textuais}
+
+Tendo um diagrama iStar aberto, clique em "File -> Generate Use Cases". Selecione a partir de qual ator deseja mapear. No caso desse exemplo, considera-se o ator "Sistema". Clique em "Yes" para visualizar os casos de uso textuais mapeados.
+
+<video width="100%" controls>
+  <source src="../assets/videos/mapear-istar-casodeuso-textual.mp4" type="video/mp4">
 </video>
 
 ### Como manipular casos de uso
 
-#### Exportar a descrição de um caso de uso textual
+#### Exportar a descrição de um caso de uso textual {#exportar-a-descrição-de-um-caso-de-uso-textual}
 
 Estando na tela dos casos de uso textuais, clique no respectivo caso de uso, depois em "Export this Specification", e em seguida salve o arquivo ".doc" com o nome de sua preferência.
 
@@ -129,9 +158,17 @@ Estando na tela dos casos de uso textuais, clique no respectivo caso de uso, dep
   <source src="../assets/videos/exportar-casodeuso-textual.mp4" type="video/mp4">
 </video>
 
+#### Exportar a descrição de todos os casos de uso textuais {#exportar-todos-casosdeuso-textuais}
+
+Estando na tela dos casos de uso textuais, clique em "Export all Use Cases descriptions", e em seguida salve o arquivo ".doc" com o nome de sua preferência.
+
+<video width="100%" controls>
+  <source src="../assets/videos/exportar-todos-casosuso-textuais.mp4" type="video/mp4">
+</video>
+
 #### Revisar um caso de uso textual {#revisar-casodeuso-manual}
 
-Abra o arquivo .doc gerado e revise. Considere o vídeo abaixo como exemplo.
+Abra o arquivo .doc gerado e revise. Considere o vídeo abaixo como exemplo, onde é mostrado como seria uma primeira impressão sobre a descrição textual do caso de uso "Consultar produto".
 
 <video width="100%" controls>
   <source src="../assets/videos/revisar-casodeuso-manual.mp4" type="video/mp4">
@@ -141,6 +178,8 @@ Abra o arquivo .doc gerado e revise. Considere o vídeo abaixo como exemplo.
 #### Visualizar casos de uso diagramáticos {#visualizar-casosdeuso-diagramaticos}
 
 Estando na tela onde são dispostos os casos de uso, clique em "Diagram". O diagrama poderá ser visualizado. Lembre-se que você também [pode salvar esse diagrama em um arquivo ".mxe"](#como-salvar-arquivos).
+
+* **OBSERVAÇÃO IMPORTANTE**: Caso você esteja executando a JGOOSE em um sistema operacional baseado em Linux, é provável que o botão "Diagram" esteja com texto branco e fundo em branco, mas ainda deve ser possível clicar.
 
 <video width="100%" controls>
   <source src="../assets/videos/mapear-casodeuso-diagrama.mp4" type="video/mp4">
@@ -175,34 +214,40 @@ Nesta seção descreve-se a sequência de passos a serem seguidos. O objetivo é
 
 Com o objetivo de fornecer ao participante uma transparência sobre qual é a estimativa de tempo para conclusão dos exercícios, **para cada exercício definiu-se um tempo estimado para o participante concluir o que é exigido**. O tempo estimado foi calculado baseando-se em testes conduzidos com participantes voluntários em etapas que antecederam a aplicação deste instrumento de avaliação.
 
-Dúvidas adicionais que surgirem durante a resolução dos exercícios poderão ser sanadas com o **avaliador** responsável por conduzir este estudo, e que **estará presente na sala no momento da aplicação deste instrumento de avaliação**.
+Dúvidas adicionais que surgirem durante a resolução dos exercícios poderão ser sanadas com o **avaliador** responsável por conduzir este estudo, através do e-mail michel.oliveira2@unioeste.br e demais contatos disponibilizados.
 
-**EXERCÍCIO 01**: Utilizando o Editor i* 2.0 presente na JGOOSE, utilize-o para desenvolver o diagrama iStar conforme ilustra a imagem abaixo. (TEMPO ESTIMADO: aproximadamente 20 minutos)
+**EXERCÍCIO 01**: Utilizando o Editor i* 2.0 presente na JGOOSE, utilize-o para [desenvolver o diagrama iStar](#como-gerar-um-diagrama-istar) conforme ilustra a imagem abaixo. (TEMPO ESTIMADO: aproximadamente 20 minutos)
 
 > Diagrama iStar a ser gerado
 
 ![Screenshot 2026-09-24 142433.png](assets/images/Screenshot_2026-09-24_142433.png)
 
-**EXERCÍCIO 02**: Salve o diagrama iStar gerado no Exercício 01. (TEMPO ESTIMADO: < 1 minuto)
+**EXERCÍCIO 02**: [Salve](#como-salvar-arquivos) o diagrama iStar gerado no Exercício 01. (TEMPO ESTIMADO: < 1 minuto)
 
-**EXERCÍCIO 03**: Utilizando a JGOOSE, mapeie o diagrama iStar que você desenhou para Casos de Uso **textuais**. Considere o ator “Sistema”. Clique em "Yes" para abrir a tela e visualizar os Casos de Uso textuais mapeados. (TEMPO ESTIMADO: < 1 minuto)
+**EXERCÍCIO 03**: Certifique-se de que todos os elementos do tipo Task, Resource e Goal estejam [inclusos dentro da boundary](#incluir-boundary-istar) do ator "Sistema" em conformidade com a figura do Exercício 01. (TEMPO ESTIMADO: < 1 minuto)
 
-**EXERCÍCIO 04**: Exporte a descrição do Caso de Uso textual “Efetuar Venda”. (TEMPO ESTIMADO: < 1 minuto)
+**EXERCÍCIO 04**: Utilizando a JGOOSE, [mapeie](#mapear-istar-casosdeuso-textuais) o diagrama iStar que você desenhou para Casos de Uso **textuais**. Considere o ator “Sistema”. Clique em "Yes" para abrir a tela e visualizar os Casos de Uso textuais mapeados. (TEMPO ESTIMADO: 2 minutos)
 
-**EXERCÍCIO 05**: Exporte a descrição de todos os Casos de Uso gerados. (TEMPO ESTIMADO: < 1 minuto)
+**EXERCÍCIO 05**: [Exporte](#exportar-a-descrição-de-um-caso-de-uso-textual) a descrição do Caso de Uso textual “Efetuar Venda”. (TEMPO ESTIMADO: < 1 minuto)
 
-**EXERCÍCIO 06**: Abra o arquivo .doc gerado pelo exercício 04 e [revise o Caso de Uso textual](#revisar-casodeuso-manual) "Efetuar Venda". (TEMPO ESTIMADO: aproximadamente 3 minutos).
+**EXERCÍCIO 06**: [Exporte](#exportar-todos-casosdeuso-textuais) a descrição de todos os Casos de Uso gerados. (TEMPO ESTIMADO: < 1 minuto)
 
-**EXERCÍCIO 07**: [Visualize](#visualizar-casosdeuso-diagramaticos) os casos de uso diagramáticos. (TEMPO ESTIMADO: < 1 minuto)
+**EXERCÍCIO 07**: Abra o arquivo .doc gerado no exercício 05 e [revise o Caso de Uso textual](#revisar-casodeuso-manual) "Efetuar Venda". (TEMPO ESTIMADO: 3 minutos).
 
-**EXERCÍCIO 08**: Considere que o sistema tomado como exemplo agora tem um novo caso de uso no qual a impressão dos dados de uma venda pode ser realizada independentemente da finalização de uma venda — por exemplo, para consultar e reimprimir os dados de uma venda antiga. [Adicione um novo caso de uso diagramático](#adicionar-casodeuso-diagramatico) "Imprimir dados de uma venda" como um caso de uso independente. Considere que tanto o ator Funcionário quanto o ator Gerente poderiam utilizar a funcionalidade de imprimir dados de uma venda (TEMPO ESTIMADO: < 1 minuto).
+**EXERCÍCIO 08**: [Visualize](#visualizar-casosdeuso-diagramaticos) os casos de uso diagramáticos. (TEMPO ESTIMADO: < 1 minuto)
 
-**EXERCÍCIO 09**: Após realizar a adição do caso de uso conforme solicitado no exercício 08, [mapeie os casos de uso diagramáticos para o diagrama iStar](#mapear-casodeuso-diagramatico-istar) (TEMPO ESTIMADO: < 1 minuto).
+**EXERCÍCIO 09**: Considere que o sistema tomado como exemplo agora tem um novo caso de uso no qual a impressão dos dados de uma venda pode ser realizada independentemente da finalização de uma venda — por exemplo, para consultar e reimprimir os dados de uma venda antiga. [Adicione um novo caso de uso diagramático](#adicionar-casodeuso-diagramatico) "Imprimir dados de uma venda" como um caso de uso independente. Considere que tanto o ator Funcionário quanto o ator Gerente poderiam utilizar a funcionalidade de imprimir dados de uma venda (TEMPO ESTIMADO: < 1 minuto).
+
+**EXERCÍCIO 10**: [Salve](#como-salvar-arquivos) os casos de uso diagramáticos.
+
+**EXERCÍCIO 11**: Após realizar a adição do caso de uso conforme solicitado no exercício 09, [mapeie os casos de uso diagramáticos para o diagrama iStar](#mapear-casodeuso-diagramatico-istar) (TEMPO ESTIMADO: < 1 minuto).
+
+**EXERCÍCIO 12**: [Salve](#como-salvar-arquivos) o diagrama iStar gerado.
 
 
 ## Questionário UEQ
 
-Baseando-se no uso que você fez na JGOOSE, [responda a esse questionário no Google Forms](https://forms.gle/ww6ZWWwDq4SCMQV5A).
+Baseando-se no uso que você fez na JGOOSE, [responda a esse questionário no Google Forms](https://forms.gle/ww6ZWWwDq4SCMQV5A) (TEMPO ESTIMADO PARA RESPOSTA: entre 3 a 5 minutos).
 
 Esta é a versão do UEQ (*User Experience Questionnaire* -- Questionário da Experiência do Usuário) traduzida para a língua portuguesa (de Portugal). Consiste em 26 itens com uma escala de avaliação do diferencial semântico de sete pontos. Esses itens abrangem seis escalas de experiência do usuário: 
 
@@ -213,4 +258,6 @@ Esta é a versão do UEQ (*User Experience Questionnaire* -- Questionário da Ex
 * estímulo (impressão de que é divertido e interessante utilizar o sistema) e 
 * novidade (impressão de que o design do produto é inovador, criativo). 
 
-Dúvidas adicionais poderão ser sanadas com o **avaliador** responsável por conduzir este estudo, e que **estará presente na sala no momento da aplicação deste instrumento de avaliação**. (TEMPO ESTIMADO PARA RESPOSTA: entre 3 a 5 minutos).
+Caso tenha curiosidade em saber mais sobre esse questionário, o site oficial do UEQ está disponível [neste link](https://www.ueq-online.org/).
+
+Dúvidas adicionais poderão ser sanadas com o **avaliador** responsável por conduzir este estudo, através do e-mail michel.oliveira2@unioeste.br e demais contatos disponibilizados.
