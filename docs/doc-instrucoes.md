@@ -12,7 +12,7 @@ Para executar a JGOOSE, é necessário ter o JDK (Java SE Development Kit) vers�
 
 **LINK OFICIAL PARA INSTALAÇÃO**: [https://www.oracle.com/br/java/technologies/downloads/](https://www.oracle.com/br/java/technologies/downloads/)
 
-* Para **Windows**: Recomenda-se as extensões ".exe" e ".msi", devido à maior facilidade de executar imediatamente aplicações que utilizam Java. Para o Linux, recomenda-se a extensão ".deb".
+* Para **Windows**: Recomenda-se as extensões ".exe" e ".msi", devido à maior facilidade de executar imediatamente aplicações que utilizam Java.
 * Para **macOS**: Recomenda-se a extensão .dmg (Disk Image), pois oferece um assistente de instalação nativo e simplificado, semelhante ao Windows.
 * Para **Linux**:
     * Se você utiliza distribuições baseadas em Debian/Ubuntu (como Linux Mint, Pop!_OS), recomenda-se a extensão .deb, que facilita a instalação pelo gerenciador de pacotes da interface gráfica.
@@ -51,7 +51,7 @@ Extraia o arquivo zipado e siga os passos para executar a JGOOSE como mostra a s
 
 ## Manual de Uso - JGOOSE
 
-Este manual contém, de forma sucinta, uma breve descrição de como utilizar cada funcionalidade da ferramenta JGOOSE, contemplando apenas o escopo de funcionalidades abordadas na seção de [Exercícios para Utilização da JGOOSE](#exercicios). Dúvidas adicionais poderão ser sanadas com o avaliador responsável por conduzir este estudo, através do e-mail michel.oliveira2@unioeste.br e demais contatos disponibilizados.
+Este manual contém, de forma sucinta, uma breve descrição de como utilizar cada funcionalidade da ferramenta JGOOSE, contemplando apenas o escopo de funcionalidades abordadas na seção de [Exercícios para Utilização da JGOOSE](#exercicios). Dúvidas adicionais poderão ser sanadas com o **avaliador** responsável por conduzir este estudo, através do e-mail **michel.oliveira2@unioeste.br** e demais contatos disponibilizados.
 
 ### Como salvar arquivos
 
@@ -214,7 +214,7 @@ Nesta seção descreve-se a sequência de passos a serem seguidos. O objetivo é
 
 Com o objetivo de fornecer ao participante uma transparência sobre qual é a estimativa de tempo para conclusão dos exercícios, **para cada exercício definiu-se um tempo estimado para o participante concluir o que é exigido**. O tempo estimado foi calculado baseando-se em testes conduzidos com participantes voluntários em etapas que antecederam a aplicação deste instrumento de avaliação.
 
-Dúvidas adicionais que surgirem durante a resolução dos exercícios poderão ser sanadas com o **avaliador** responsável por conduzir este estudo, através do e-mail michel.oliveira2@unioeste.br e demais contatos disponibilizados.
+Dúvidas adicionais que surgirem durante a resolução dos exercícios poderão ser sanadas com o **avaliador** responsável por conduzir este estudo, através do e-mail **michel.oliveira2@unioeste.br** e demais contatos disponibilizados.
 
 **EXERCÍCIO 01**: Utilizando o Editor i* 2.0 presente na JGOOSE, utilize-o para [desenvolver o diagrama iStar](#como-gerar-um-diagrama-istar) conforme ilustra a imagem abaixo. (TEMPO ESTIMADO: aproximadamente 20 minutos)
 
@@ -260,4 +260,4 @@ Esta é a versão do UEQ (*User Experience Questionnaire* -- Questionário da Ex
 
 Caso tenha curiosidade em saber mais sobre esse questionário, o site oficial do UEQ está disponível [neste link](https://www.ueq-online.org/).
 
-Dúvidas adicionais poderão ser sanadas com o **avaliador** responsável por conduzir este estudo, através do e-mail michel.oliveira2@unioeste.br e demais contatos disponibilizados.
+Dúvidas adicionais poderão ser sanadas com o **avaliador** responsável por conduzir este estudo, através do e-mail **michel.oliveira2@unioeste.br** e demais contatos disponibilizados.
